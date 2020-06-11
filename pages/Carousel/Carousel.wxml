@@ -1,0 +1,7 @@
+<view style="text-align:center;">
+      <view class="carousel">
+            <view wx:for="{{arrayImg}}" catchtap="test" wx:key="item" data-value="{{allimg[index]}}" class="img {{allimg[index]}}" >
+                  <image src="../img/{{item}}.jpg"></image>
+            </view>
+      </view>
+</view>

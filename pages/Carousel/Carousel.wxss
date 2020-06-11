@@ -1,0 +1,62 @@
+.carousel{
+  width: 100%;
+  height: 500rpx;
+  overflow: hidden;
+  position: relative;
+
+}
+image{
+  width: 100%;
+  height: 100%;  
+}
+.carousel .img{
+  overflow: hidden;
+
+  position: absolute;
+  transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;
+}
+
+.carousel .img img{
+  width: calc(100% - 14px);
+  height: calc(100% - 14px);
+  margin: 7px;
+}
+
+.carousel .img1{
+  width: 0px;
+  height: 0px;
+  top: 30%;
+  left: -50%;
+  z-index: 1;
+}
+.carousel .img2{
+  width: 350rpx;
+  height: 200rpx;
+  top: 20%;
+  left: 0%;
+  z-index: 2;
+}
+.carousel .img3{
+  width: 400rpx;
+  height: 340rpx;
+  top: 10%;
+  left: 23%;
+  z-index: 3;
+}
+.carousel .img4{
+  width: 350rpx;
+  height: 200rpx;
+  top: 20%;
+  left: 60%;
+  z-index: 2;
+}
+.carousel .img5{
+  width: 0px;
+  height: 0px;
+  top: 30%;
+  left: 110%;
+  z-index: 1;
+}
+.aa{
+  position: absolute;
+}

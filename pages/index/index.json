@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Carousel":"../Carousel/Carousel"
+  },
+  "navigationBarTitleText": "轮播图"
+}
